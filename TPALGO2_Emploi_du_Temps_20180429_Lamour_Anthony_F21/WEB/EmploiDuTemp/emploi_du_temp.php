@@ -163,12 +163,19 @@
 															
 															//une fois que le premier horaire correspond au head on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-															//on incrémente cpttest
-															 $cpttest=$cpttest+$i+1;
+															//on incrémente cpttest et i
+															$i=$i+1;
+															 $cpttest=$cpttest+$i;
 													}else{
+															while($row['HDEBUT']."-".$row['HFIN']!=$Tab[$i]){
+																	echo "<td> </td>";
+																	$i++;
+																	$cpttest++;
+															}
 														//si ce n'est pas le premier passe on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-														//on incrémente cpttest
+														//on incrémente cpttest et i
+															$i=$i+1;
 															$cpttest++;
 													}
 														
@@ -205,12 +212,19 @@
 															
 															//une fois que le premier horaire correspond au head on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-															//on incrémente cpttest
-															 $cpttest=$cpttest+$i+1;
+															//on incrémente cpttest et i
+															$i=$i+1;
+															 $cpttest=$cpttest+$i;
 													}else{
+															while($row['HDEBUT']."-".$row['HFIN']!=$Tab[$i]){
+																	echo "<td> </td>";
+																	$i++;
+																	$cpttest++;
+															}
 														//si ce n'est pas le premier passe on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-														//on incrémente cpttest
+														//on incrémente cpttest et i
+															$i=$i+1;
 															$cpttest++;
 													}
 														
@@ -244,12 +258,19 @@
 															
 															//une fois que le premier horaire correspond au head on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-															//on incrémente cpttest
-															 $cpttest=$cpttest+$i+1;
+															//on incrémente cpttest et i
+															$i=$i+1;
+															 $cpttest=$cpttest+$i;
 													}else{
+															while($row['HDEBUT']."-".$row['HFIN']!=$Tab[$i]){
+																	echo "<td> </td>";
+																	$i++;
+																	$cpttest++;
+															}
 														//si ce n'est pas le premier passe on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-														//on incrémente cpttest
+														//on incrémente cpttest et i
+															$i=$i+1;
 															$cpttest++;
 													}
 														
@@ -283,12 +304,19 @@
 															
 															//une fois que le premier horaire correspond au head on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-															//on incrémente cpttest
-															 $cpttest=$cpttest+$i+1;
+															//on incrémente cpttest et i
+															$i=$i+1;
+															 $cpttest=$cpttest+$i;
 													}else{
+															while($row['HDEBUT']."-".$row['HFIN']!=$Tab[$i]){
+																	echo "<td> </td>";
+																	$i++;
+																	$cpttest++;
+															}
 														//si ce n'est pas le premier passe on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-														//on incrémente cpttest
+														//on incrémente cpttest et i
+															$i=$i+1;
 															$cpttest++;
 													}
 														
@@ -322,12 +350,19 @@
 															
 															//une fois que le premier horaire correspond au head on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-															//on incrémente cpttest
-															 $cpttest=$cpttest+$i+1;
+															//on incrémente cpttest et i
+															$i=$i+1;
+															 $cpttest=$cpttest+$i;
 													}else{
+															while($row['HDEBUT']."-".$row['HFIN']!=$Tab[$i]){
+																	echo "<td> </td>";
+																	$i++;
+																	$cpttest++;
+															}
 														//si ce n'est pas le premier passe on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-														//on incrémente cpttest
+														//on incrémente cpttest et i
+															$i=$i+1;
 															$cpttest++;
 													}
 														
@@ -361,12 +396,19 @@
 															
 															//une fois que le premier horaire correspond au head on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-															//on incrémente cpttest
-															 $cpttest=$cpttest+$i+1;
+															//on incrémente cpttest et i
+															$i=$i+1;
+															 $cpttest=$cpttest+$i;
 													}else{
+															while($row['HDEBUT']."-".$row['HFIN']!=$Tab[$i]){
+																	echo "<td> </td>";
+																	$i++;
+																	$cpttest++;
+															}
 														//si ce n'est pas le premier passe on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-														//on incrémente cpttest
+														//on incrémente cpttest et i
+															$i=$i+1;
 															$cpttest++;
 													}
 														
@@ -400,12 +442,19 @@
 															
 															//une fois que le premier horaire correspond au head on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-															//on incrémente cpttest
-															 $cpttest=$cpttest+$i+1;
+															//on incrémente cpttest et i
+															$i=$i+1;
+															 $cpttest=$cpttest+$i;
 													}else{
+															while($row['HDEBUT']."-".$row['HFIN']!=$Tab[$i]){
+																	echo "<td> </td>";
+																	$i++;
+																	$cpttest++;
+															}
 														//si ce n'est pas le premier passe on rempli le tableau
 															echo "<td>".$row['NOMM']." ".$row['NOMT']." ".$row['NOMS']." ".$row['MAILE']."</td>";
-														//on incrémente cpttest
+														//on incrémente cpttest et i
+															$i=$i+1;
 															$cpttest++;
 													}
 														
